@@ -6,8 +6,8 @@ const Routes = () => {
     return (
         <div className='p-4' > 
             <Switch>
-                <Route exact Path='' element={() => <Navigate to='/search' /> } />
-                <Route exact path="/search" element={<Result />} />
+                <Route  path="/search" element={<Result />} />
+                {/* <Route  Path=""  element={() => <Navigate to="/search" />} /> */}
                 <Route  path="/images" element={<Result />} />
                 <Route  path="/news" element={<Result />} />
                 <Route  path="/videos" element={<Result />} />
